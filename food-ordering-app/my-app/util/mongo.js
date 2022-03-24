@@ -19,14 +19,15 @@ if (!cached) {
   cached = global.mongoose = { conn: null, promise: null }
 }
 
-async function dbConnect() {
+export async function dbConnect() {
   if (cached.conn) {
     return cached.conn
   }
 
   if (!cached.promise) {
     const opts = {
-      bufferCommands: false,
+      useNewUrlParser: true,
+      useUnifiedTopology : true
     }
 
     cached.promise = mongoose.connect(MONGO_URL, opts).then((mongoose) => {

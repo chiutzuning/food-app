@@ -1,9 +1,17 @@
 import styles from "../../styles/Product.module.css";
 import Image from "next/image";
 import { useState } from "react";
+// import axios from "axios";
+// import { useDispatch } from "react-redux";
+// import { addProduct } from "../../redux/cartSlice";
 
-const Product = () => {
-  const [size, setSize] = useState(0);
+const Product = ({ food }) => {
+  // const [price, setPrice] = useState(pizza.prices[0]);
+  // const [size, setSize] = useState(0);
+  // const [quantity, setQuantity] = useState(1);
+  // const [extras, setExtras] = useState([]);
+  // const dispatch = useDispatch();
+  // const [size, setSize] = useState(0);
   const sushi = {
     id: 1,
     img: "/img/product-image/sushi/sushi-3.png",
@@ -21,7 +29,7 @@ const Product = () => {
       </div>
       <div className={styles.right}>
         <h1 className={styles.title}>{sushi.name}</h1>
-        <span className={styles.price}>${sushi.price[size]}</span>
+        {/* <span className={styles.price}>${sushi.price[size]}</span> */}
         <p className={styles.desc}>{sushi.desc}</p>
         <h3 className={styles.choose}>Choose the size</h3>
         <div className={styles.sizes}>

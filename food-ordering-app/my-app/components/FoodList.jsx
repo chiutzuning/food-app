@@ -1,7 +1,7 @@
 import styles from "../styles/FoodList.module.css";
 import FoodCard from "./FoodCard"
 
-const PizzaList = () => {
+const FoodList = () => {
   return (
     <div className={styles.container}>
     <h1 className={styles.title}>THE BEST JAPANESE RESTAURANT IN TOWN</h1>
@@ -24,4 +24,4 @@ const PizzaList = () => {
   );
 };
 
-export default PizzaList;
+export default FoodList;

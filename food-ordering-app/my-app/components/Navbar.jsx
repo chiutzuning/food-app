@@ -29,6 +29,10 @@ const Navbar = () => {
           <Image src="/img/component/cart-1.png" alt="" width="40px" height="40px" />
           <div className={styles.counter}>2</div>
         </div>
+        <div className={styles.account}>
+            <Image src="/img/component/account.png" alt="" width="36px" height="36px" />
+            <a class="nav-link texts" href="../pages/signin">Sign in</a>
+        </div>
       </div>
     </div>
     )

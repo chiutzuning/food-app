@@ -64,6 +64,20 @@
     position: relative;
 }
 
+.account{
+    position: relative;
+    margin-left: 5px;
+    display: flex;
+}
+
+.account a{
+  font-size: 12px;
+  font-weight: bold;
+  color: white !important;
+  justify-content: end;
+  padding: 11px 5px;
+}
+
 .counter{
     position: absolute;
     top: -10px;
@@ -97,7 +111,11 @@
     display: none;
   }
 
+  .item:nth-child(3) {
+    display: none;
+  }
+
   .item:nth-child(1) {
-    flex: 3;
+    flex: 2;
   }
 }
