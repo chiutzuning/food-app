@@ -1,7 +1,7 @@
 import styles from "../styles/FoodList.module.css";
 import FoodCard from "./FoodCard"
 
-const FoodList = () => {
+const FoodList = ({ foodList }) => {
   return (
     <div className={styles.container}>
     <h1 className={styles.title}>THE BEST JAPANESE RESTAURANT IN TOWN</h1>
@@ -11,14 +11,9 @@ const FoodList = () => {
       options, which are often made with flavour-packed vegetables like avocados and mushrooms.
       </p>
       <div className={styles.wrapper}>
-          <FoodCard/>
-          <FoodCard/>
-          <FoodCard/>
-          <FoodCard/>
-          <FoodCard/>
-          <FoodCard/>
-          <FoodCard/>
-          <FoodCard/>
+        {foodList.map((sushi) => (
+            <FoodCard key={sushi._id} sushi={sushi} />
+          ))}
       </div>
     </div>
   );
