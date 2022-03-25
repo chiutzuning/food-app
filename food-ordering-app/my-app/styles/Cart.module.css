@@ -23,6 +23,14 @@
   border-spacing: 20px;
 }
 
+.trTitle th{
+  text-justify: center;
+}
+
+.tr td{
+  text-justify: center;
+}
+
 .tr{
   display: table-row !important;
 }

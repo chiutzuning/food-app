@@ -51,3 +51,69 @@
   border-radius: 10px;
   cursor: pointer;
 }
+
+.buttonContainer{
+  position: relative;
+  border-color: none;
+  background-color: none;
+}
+
+.closeButton{
+  position:absolute;
+  bottom: 220px;
+  left: -10px;
+  font-size: 30px;
+}
+
+.buttonContainer button{
+  background: transparent;
+  box-shadow: 0px 0px 0px transparent;
+  border: 0px solid transparent;
+  text-shadow: 0px 0px 0px transparent;
+}
+
+
+@media screen and (max-width: 480px) {
+  .container {
+    width: 80%;
+    height: 80vh;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    display: flex;
+    z-index: 999;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+  }
+
+  .wrapper {
+    width: 500px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .title {
+    font-weight: 200;
+  }
+
+  .label{
+    margin-bottom: 5px;
+  }
+
+  .input {
+    height: 40px;
+  }
+
+  .closeButton{
+    position:absolute;
+    bottom: 210px;
+    left: -15px;
+    font-size: 40px;
+  }
+}

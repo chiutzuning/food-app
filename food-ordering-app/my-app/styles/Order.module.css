@@ -13,6 +13,14 @@
   margin-bottom: 50px;
 }
 
+.trTitle th{
+  text-justify: center;
+}
+
+.tr td{
+  text-justify: center;
+}
+
 .row:last-child {
   width: 80%;
   display: flex;
@@ -84,6 +92,11 @@
 @media screen and (max-width: 480px) {
   .container {
     flex-direction: column;
+  }
+
+  .table {
+    text-align: center;
+    margin-bottom: 50px;
   }
 
   .trTitle {

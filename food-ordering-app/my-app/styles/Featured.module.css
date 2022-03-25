@@ -36,6 +36,11 @@
   .container{
     height: 50vh;
   }
+
+  .imgContainer {
+    height: 130%;
+    position: relative;
+  }
 }
 
 .arrowContainer {

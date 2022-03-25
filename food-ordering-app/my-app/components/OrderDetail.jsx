@@ -1,7 +1,7 @@
 import { useState } from "react";
 import styles from "../styles/OrderDetail.module.css";
 
-const OrderDetail = ({ total, createOrder }) => {
+const OrderDetail = ({ total, createOrder}) => {
   const [customer, setCustomer] = useState("");
   const [address, setAddress] = useState("");
 
@@ -11,8 +11,11 @@ const OrderDetail = ({ total, createOrder }) => {
 
   return (
     <div className={styles.container}>
+      <div className={styles.buttonContainer}>
+       <button className={styles.closeButton} onClick={() => history.back()}>🅧</button>
+      </div>
       <div className={styles.wrapper}>
-        <h1 className={styles.title}>You will pay $12 after delivery.</h1>
+        <h1 className={styles.title}>You will pay ${total} after delivery.</h1>
         <div className={styles.item}>
           <label className={styles.label}>Name Surname</label>
           <input
