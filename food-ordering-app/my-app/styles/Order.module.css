@@ -1,10 +1,19 @@
 .container {
   padding: 50px;
   display: flex;
+  margin-bottom: 150px;
+  justify-content: space-around;
 }
 
 .left {
   flex: 2;
+  margin-bottom: 100px;
+}
+
+.right {
+  flex: 1;
+  justify-content: center;
+  margin-left: 100px;
 }
 
 .table {

@@ -174,7 +174,7 @@ const Cart = () => {
                     "test",
                   components: "buttons",
                   currency: "USD",
-                  "disable-funding": "credit,card,p24",
+                  "disable-funding": "credit,card,p24,sofort",
                 }}
               >
                 <ButtonWrapper currency={currency} showSpinner={false} />
