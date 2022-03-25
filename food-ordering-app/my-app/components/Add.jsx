@@ -28,10 +28,12 @@ const Add = ({ setClose }) => {
   const handleCreate = async () => {
     const data = new FormData();
     data.append("file", file);
+    // setting upload preset name and folder as uploads in cloudinary
     data.append("upload_preset", "uploads");
     try {
+      // connect cloudinay with it cloud name "djj1xcjw8"
       const uploadRes = await axios.post(
-        "https://api.cloudinary.com/v1_1/dsbyq4sj1/image/upload",
+        "https://api.cloudinary.com/v1_1/djj1xcjw8/image/upload",
         data
       );
 
