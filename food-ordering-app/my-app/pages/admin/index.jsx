@@ -14,7 +14,7 @@ const Index = ({ orders, products }) => {
       const res = await axios.delete(
         "http://localhost:3000/api/products/" + id
       );
-      setFoodList(foodList.filter((sushi) => sushi._id !== id));
+      setFoodList(foodList.filter((product) => product._id !== id));
     } catch (err) {
       console.log(err);
     }
