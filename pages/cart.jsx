@@ -53,7 +53,7 @@ const Cart = () => {
 
     return (
       <>
-        { (showSpinner && isPending) && <div className="spinner" />}
+        { (showSpinner && isPending) && <div className={styles.spinner} />}
         <PayPalButtons
           style={style}
           disabled={false}

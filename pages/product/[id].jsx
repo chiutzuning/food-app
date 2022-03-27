@@ -45,7 +45,7 @@ const Product = ({ sushi }) => {
     <div className={styles.container}>
       <div className={styles.left}>
         <div className={styles.imgContainer}>
-          <Image src={sushi.img} objectFit="contain" layout="fill" alt="" />
+          <Image src={sushi.img} objectFit="contain" layout="fill" alt="sushi" />
         </div>
       </div>
       <div className={styles.right}>
@@ -55,15 +55,15 @@ const Product = ({ sushi }) => {
         <h3 className={styles.choose}>Choose the size</h3>
         <div className={styles.sizes}>
           <div className={styles.size} onClick={() => handleSize(0)}>
-            <Image src="/img/product-image/id-img/x6sushi.png" layout="fill" alt="" />
+            <Image src="/img/product-image/id-img/x6sushi.png" layout="fill" alt="sushi" />
             <span className={styles.number}>Small</span>
           </div>
           <div className={styles.size} onClick={() => handleSize(1)}>
-            <Image src="/img/product-image/id-img/x12sushi.png" layout="fill" alt="" />
+            <Image src="/img/product-image/id-img/x12sushi.png" layout="fill" alt="sushi" />
             <span className={styles.number}>Medium</span>
           </div>
           <div className={styles.size} onClick={() => handleSize(2)}>
-            <Image src="/img/product-image/id-img/x24sushi.png" layout="fill" alt="" />
+            <Image src="/img/product-image/id-img/x24sushi.png" layout="fill" alt="sushi" />
             <span className={styles.number}>Large</span>
           </div>
         </div>

@@ -60,7 +60,7 @@ const Order = ({ order }) => {
                 src="/img/order/checked.png"
                 width={30}
                 height={30}
-                alt=""
+                alt="checked"
               />
             </div>
           </div>
@@ -73,7 +73,7 @@ const Order = ({ order }) => {
                 src="/img/order/checked.png"
                 width={30}
                 height={30}
-                alt=""
+                alt="checked"
               />
             </div>
           </div>
@@ -86,7 +86,7 @@ const Order = ({ order }) => {
                 src="/img/order/checked.png"
                 width={30}
                 height={30}
-                alt=""
+                alt="checked"
               />
             </div>
           </div>

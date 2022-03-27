@@ -1,5 +1,6 @@
 import styles from "../styles/FoodList.module.css";
 import FoodCard from "./FoodCard"
+import Link from "next/link";
 
 const FoodList = ({ foodList }) => {
   return (
@@ -11,11 +12,12 @@ const FoodList = ({ foodList }) => {
       options, which are often made with flavour-packed vegetables like avocados and mushrooms.
       </p>
       <div className={styles.wrapper}>
-        {foodList.map((sushi) => (
-            <FoodCard key={sushi._id} sushi={sushi} />
-          ))}
+          {foodList.map((sushi) => (
+              <FoodCard key={sushi._id} sushi={sushi} />
+            ))}
       </div>
     </div>
+    
   );
 };
 

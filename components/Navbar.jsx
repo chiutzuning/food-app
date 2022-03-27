@@ -9,11 +9,11 @@ const Navbar = () => {
       <div className={styles.container}>
       <div className={styles.item}>
         <div className={styles.callButton}>
-          <Image src="/img/component/phone.png" alt="" width="150" height="150" />
+          <Image src="/img/component/phone.png" alt="phone" width="150" height="150"/>
         </div>
         <div className={styles.texts}>
           <div className={styles.text}>ORDER NOW!</div>
-          <div className={styles.text}>012 345 678</div>
+          <div className={styles.text}>012-345-678</div>
         </div>
       </div>
       <div className={styles.item}>
@@ -24,7 +24,7 @@ const Navbar = () => {
           <li className={styles.listItem}>Products</li>
           <li className={styles.listItem}>Menu</li>
           <Link href="/" passHref>
-            <Image src="/img/component/logo2.png" alt="" width="100px" height="100px" />
+            <Image src="/img/component/logo2.png" alt="logo2" width="100px" height="100px"/>
           </Link>
           <li className={styles.listItem}>Events</li>
           <li className={styles.listItem}>Blog</li>
@@ -34,13 +34,13 @@ const Navbar = () => {
       <div className={styles.item}>
         <Link href="/cart" passHref>
           <div className={styles.cart}>
-              <Image src="/img/component/cart-1.png" alt="" width="40px" height="40px" />
+              <Image src="/img/component/cart-1.png" alt="cart" width="40px" height="40px"/>
               <div className={styles.counter}>{quantity}</div>
           </div>
         </Link>
         <div className={styles.account}>
-            <Image src="/img/component/account.png" alt="" width="36px" height="36px" />
-            <a class="nav-link texts" href="../pages/signin">Sign in</a>
+            <Image src="/img/component/account.png" alt="account" width="36px" height="36px"/>
+            <a className={styles.texts} href="../pages/signin">Sign in</a>
         </div>
       </div>
     </div>
