@@ -26,6 +26,8 @@
     "redux": "^4.1.2"
   },
   "devDependencies": {
+    "@swc/cli": "^0.1.56",
+    "@swc/core": "^1.2.161",
     "eslint": "8.11.0",
     "eslint-config-next": "12.1.0"
   }
