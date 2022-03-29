@@ -1,5 +1,5 @@
-Hirugohan 
-# Food delivery app by Next.js MongoDB restaurant (order food) project using Paypal, React Redux. Next.js.
+# Hirugohan 
+Food delivery app by Next.js MongoDB restaurant (order food) project using Paypal, React Redux. Next.js.
 ![](pro-demo3.png)
 
 ## Application features 
@@ -18,11 +18,12 @@ Hirugohan
 
 - Connected with Paypal system for user to pay 
 
-### Home Screen & Loading Screen
+### Home Screen & Order screen
+![](hirugohan-video.mov)
 
-### Order screen
+### Admin screen
+![](admin.png)
 
-### Cart screen
 
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
