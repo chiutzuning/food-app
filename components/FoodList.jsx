@@ -16,7 +16,7 @@ const FoodList = ({ foodList }) => {
               <FoodCard key={sushi._id} sushi={sushi} />
             ))}
       </div>
-gi    </div>
+    </div>
 
   );
 };
