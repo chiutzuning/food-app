@@ -8,6 +8,7 @@ import Featured from "../components/Featured";
 import FoodList from "../components/FoodList";
 import styles from "../styles/Home.module.css";
 
+
 export default function Home({ foodList, admin }) {
   const [close, setClose] = useState(true);
   return (
@@ -41,9 +42,3 @@ export const getServerSideProps = async (ctx) => {
     },
   };
 };
-
-const express = require('express');
-const app = express();
-const PORT = process.env.PORT || 3000;
-
-app.listen(PORT, () => console.log(`Server Started`));
