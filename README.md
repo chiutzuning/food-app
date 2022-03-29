@@ -19,7 +19,7 @@ Food delivery app by Next.js MongoDB restaurant (order food) project using Paypa
 - Connected with Paypal system for user to pay 
 
 ### Home Screen & Order screen
-![](hirugohan-video.mov)
+![](https://user-images.githubusercontent.com/80203988/160697978-3d286b30-ae7f-4d73-99f1-a0a7d3da5717.mov)
 
 ### Admin screen
 ![](admin.png)
