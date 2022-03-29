@@ -1,5 +1,28 @@
-# Food Delivery App
-![](pro-demo1.png)
+Hirugohan 
+# Food delivery app by Next.js MongoDB restaurant (order food) project using Paypal, React Redux. Next.js.
+![](pro-demo3.png)
+
+## Application features 
+
+- Simple UI for Food delivery app
+
+- Use MongoDB to store order data and create new menu in a local database 
+
+- Can add one or more food in the cart section 
+
+- Automatically total bill will generate.
+
+- Using Security login system for owner to see the orders and process of food delivery  
+
+- View previous ordered food's from your account
+
+- Connected with Paypal system for user to pay 
+
+### Home Screen & Loading Screen
+
+### Order screen
+
+### Cart screen
 
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
