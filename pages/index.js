@@ -26,8 +26,15 @@ export default function Home({ foodList, admin }) {
 }
 
 export const getServerSideProps = async (ctx) => {
+  const port = process.env.PORT || 3000;
   const myCookie = ctx.req?.cookies || "";
   let admin = false;
+
+  if (!port) {
+    return console.error('server could not start')
+   } else {
+   console.log('server is running')
+  }
 
   if (myCookie.token === process.env.TOKEN) {
     admin = true;

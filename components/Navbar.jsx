@@ -38,10 +38,6 @@ const Navbar = () => {
               <div className={styles.counter}>{quantity}</div>
           </div>
         </Link>
-        <div className={styles.account}>
-            <Image src="/img/component/account.png" alt="account" width="36px" height="36px"/>
-            <a className={styles.texts} href="../pages/signin">Sign in</a>
-        </div>
       </div>
     </div>
     )

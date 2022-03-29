@@ -100,7 +100,11 @@
   }
 
   .item:nth-child(1) {
-    flex: 3;
+    flex: 2;
+  }
+
+  .container{
+    padding: 0px 20px;
   }
 }
 
@@ -108,10 +112,6 @@
 
 @media screen and (max-width:480px) {
   .item:nth-child(2) {
-    display: none;
-  }
-
-  .item:nth-child(3) {
     display: none;
   }
 
